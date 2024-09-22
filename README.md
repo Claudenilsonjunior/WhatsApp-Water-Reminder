@@ -26,20 +26,17 @@ Make sure you have Python installed on your machine. You can download it from [p
    ```bash
    git clone https://github.com/yourusername/whatsapp-water-reminder.git
    cd whatsapp-water-reminder
-2. **Install the dependencies**
 
-3. Install the dependencies:
+2. Install the dependencies:
     ```bash
    pip install -r requirements.txt]
 
-4. **Change the Phone Number and the Message**
+3. **Change the Phone Number and the Message**
 
-  ``phone_number = ("YOUR PHONE_NUMBER")``
-  ``message = ("YOUR MESSAGE")``
+  `phone_number = ("YOUR PHONE_NUMBER")`
+  
+  `message = ("YOUR MESSAGE")`
   
 4. **Run the script:**
-  ```bash
-  python main.py
-
-
-
+     ```bash
+     python main.py
