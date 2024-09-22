@@ -1,18 +1,13 @@
-import os
 import pywhatkit as kit
 import time
 from datetime import datetime
-from dotenv import load_dotenv
 
-
-load_dotenv()
-
-phone_number = os.getenv("PHONE_NUMBER")
-message = os.getenv("MESSAGE")
+phone_number = ("YOUR PHONE_NUMBER") #Example: +5599999999999
+message = ("YOUR MESSAGE")
 
 def is_within_active_hours():
     current_hour = datetime.now().hour
-    return 9 <= current_hour < 23  # Lembretes só das 9h às 22h
+    return 9 <= current_hour < 23  # Lembretes só das 9h às 23h
 
 while True:
     if is_within_active_hours():
